@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Devanad Maddhesiya- Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgba(5, 5, 250, 0.495);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgba(19, 19, 129, 0.511);
+      }
+      nav ul {
+        justify-content: center;
+        display: flex;
+      }
+      .left {
+        font-size: 2rem;
+      }
+      nav ul li{
+        font-style: none;
+        margin: 0px 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        color: whitesmoke;
+       
+      }
+      nav ul li a:hover{
+        text-decoration: none;
+        color: #652929;
+        font-size: 1.1rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 60px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 2.5rem;
+      }
+      .rightSection img {
+       
+        width: 110%;
+        margin: 20px 0;
+      }
+      
+      #element{
+        color:aqua;
+      }
+      .secondSection{
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .secondSection h1{
+        font-size: 1.9rem;
+      }
+      .secondSection .box{
+        background-color: white;
+        height : 2px;
+        margin : 56px 0;
+        width: 80vw;
+        display: flex;
+      }
+      .secondSection .vertival{
+        height : 93px;
+        width : 1px;
+        margin : 0 100px;
+        background-color: white;
+      }
+      main hr{
+        margin: 60px 84px;
+        border: 0;
+        height: 1.2px;
+        background: rgb(147, 219, 24);
+      }
+      .text-gray{
+        color: rgb(32, 30, 30);
+      }
+      .image-top{
+        width: 40px;
+        top: -32px;
+        left: -9px;
+      }
+      .vertical-title{
+        position: relative;
+        width: 150px;
+        top: 75px;
+
+      }
+      .vertical-desc{
+            position: relative;
+            top: 86px;
+            width: 150px;
+            font-size: 9px;
+            color: rgb(14, 9, 9);
+      }
+      .footer{
+        background-color: rgb(47, 47, 66);
+        height: 233px;
+        justify-content: space-evenly;
+      }
+      .footer{
+        display:flex;
+        padding: 23px 123px;
+        justify-content: space-evenly;
+      }
+      .footer ul{
+        list-style: none;
+      }
+      .dev{
+        width:60px;
+        height:60px;
+        border-radius: 120px;
+        position: relative;
+      }
+      .btn1{
+        background-color: #ef2975;
+        border: 2px solid white;
+        color:white;
+        padding: 12px;
+        font-size: 20px;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+      .footer a{
+        color:white;
+      
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        
+        <div class="left"><img class="dev" src = "pic.jpg"> Devanand's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Skill</a></li>
+            <li><a href = "/">Open Source</a></li>
+            <li><a href="/">project</a></li>
+            <li><a href="/">Achievement</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, my name is <span style="color:aqua"><b>Devanand</b></span>
+          <div>and I am a web developer</div>
+          <span id="element"></span>
+          <div class="button">
+            <button class="btn1" >Download Resume</button>
+          </div>
+        </div>
+        
+        <div class="rightSection">
+          <img src="down.png" alt="" style="height:220px"/>
+      </section>
+      <hr>
+        <section class="secondSection">
+          <span class="text-gray">What I have done so far</span>
+          <h1>Work Experience</h1>
+          <div class="box">
+                <div class="vertival">
+                  <img class="image-top" src="html.png" alt="">
+                  <div class="vertical-title">HTML Developer 2020-2020</div>
+                  <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime laborum, iste quam voluptatum impedit consequatur, eveniet, nulla facilis minus reiciendis doloribus. Earum.
+                  </div>
+                </div>
+                <div class="vertival">
+                  <img class="image-top" src="nodejs.png" alt="">
+                  <div class="vertical-title">Node.js Developer 2020-2021</div>
+                  <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime laborum, iste quam voluptatum impedit consequatur, eveniet, nulla facilis minus reiciendis doloribus. Earum.
+                  </div>
+                </div>
+                <div class="vertival">
+                  <img class="image-top" src="android.png" alt="">
+                  <div class="vertical-title">App Developer 2021-2022</div>
+                  <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime laborum, iste quam voluptatum impedit consequatur, eveniet, nulla facilis minus reiciendis doloribus. Earum.
+                  </div>
+                </div>
+                <div class="vertival">
+                  <img class="image-top" src="kaggle.png" alt="" style="width: 85px;">
+                  <div class="vertical-title">Data Scientist 2022-2023</div>
+                  <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime laborum, iste quam voluptatum impedit consequatur, eveniet, nulla facilis minus reiciendis doloribus. Earum.
+                  </div>
+                </div>
+                <div class="vertival">
+                  <img class="image-top" src="game.png" alt="" style="width: 38px;">
+                  <div class="vertical-title"> Game developer 2023-2023</div>
+                  <div class="vertical-desc">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maxime laborum, iste quam voluptatum impedit consequatur, eveniet, nulla facilis minus reiciendis doloribus. Earum.
+                  </div>
+                </div>
+          </div>
+        </section>
+
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="foote-first">
+          <h3>@copyright</h3>
+          <p>All right reserved</p>
+        </div>
+        <div class="footer-second">
+            <li><a href=/"">Linkdin</a></li>
+            <br>
+            <li><a href="/">GitHub</a></li>
+            <br>
+            <li><a href="/">Leetcode</a></li>
+            <br>
+            <li><a href="/">Codechef</a></li>
+          </ul>
+        </div>
+        <div class="footer-third"></div>
+        <div class="footer-third"></div>
+        <div class="footer-fourth"></div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed('#element', {
+        strings: ['<i>market analyst</i>', '&amp; Data analyst.'],
+        typeSpeed: 25,
+      });
+    </script>
+  </body>
+  </body>
+</html>
